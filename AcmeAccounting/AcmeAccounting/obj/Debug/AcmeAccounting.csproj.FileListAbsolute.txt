@@ -1,0 +1,5 @@
+C:\Users\LaFos\source\repos\AcmeAccounting\AcmeAccounting\bin\Debug\AcmeAccounting.exe.config
+C:\Users\LaFos\source\repos\AcmeAccounting\AcmeAccounting\bin\Debug\AcmeAccounting.exe
+C:\Users\LaFos\source\repos\AcmeAccounting\AcmeAccounting\bin\Debug\AcmeAccounting.pdb
+C:\Users\LaFos\source\repos\AcmeAccounting\AcmeAccounting\obj\Debug\AcmeAccounting.exe
+C:\Users\LaFos\source\repos\AcmeAccounting\AcmeAccounting\obj\Debug\AcmeAccounting.pdb
