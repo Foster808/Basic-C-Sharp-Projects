@@ -1,0 +1,6 @@
+C:\Users\LaFos\source\repos\Basic Approval Program\Basic Approval Program\bin\Debug\Basic Approval Program.exe.config
+C:\Users\LaFos\source\repos\Basic Approval Program\Basic Approval Program\bin\Debug\Basic Approval Program.exe
+C:\Users\LaFos\source\repos\Basic Approval Program\Basic Approval Program\bin\Debug\Basic Approval Program.pdb
+C:\Users\LaFos\source\repos\Basic Approval Program\Basic Approval Program\obj\Debug\Basic Approval Program.csprojAssemblyReference.cache
+C:\Users\LaFos\source\repos\Basic Approval Program\Basic Approval Program\obj\Debug\Basic Approval Program.exe
+C:\Users\LaFos\source\repos\Basic Approval Program\Basic Approval Program\obj\Debug\Basic Approval Program.pdb
