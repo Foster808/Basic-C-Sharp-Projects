@@ -86,7 +86,7 @@ class Program
             }
         }
         while (!guessedWrong);
-        Console.Read();
+        Console.ReadLine();
 
         //Console.WriteLine("You could potentially get: ");
         //Console.WriteLine(numArray[userChoice1]);
@@ -98,23 +98,9 @@ class Program
 
         //STEP 4
 
-        // this is the exact same thing as above, but it's a lot cleaner and easier to write!
-        //int[] numArray1 = new int[] { 5, 2, 10, 200, 3000 };
-        //
-
-        //int userChoice;
-        //Console.WriteLine("Choose a number between 0 and 8 to hear your fortune!");
-        //userChoice = Convert.ToInt32(Console.ReadLine());
-        //Console.ReadLine();
-        //Console.WriteLine("Great you chose: " + userChoice);
-
         int userChoice2;
         Console.WriteLine("Last number, to add some SHINE to your day and money, choose from 0 to 6");
-        //userChoice2 = Convert.ToString(Console.ReadLine());
         userChoice2 = Convert.ToInt32(Console.ReadLine());
-        //string userChoice3 = Convert.ToString(Console.ReadLine());
-        //Console.ReadLine();
-        //Console.WriteLine("Oh WOW!");
 
 
         string[] wordArray = { "BOOM", "POW", "SPARKLE", "PIZAZZ", "GEN-I-US", "BRILLIANT", "SPECTACULAR" };
