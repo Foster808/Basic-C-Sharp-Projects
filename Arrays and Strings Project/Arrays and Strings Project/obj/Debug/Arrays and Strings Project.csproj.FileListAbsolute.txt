@@ -1,0 +1,6 @@
+C:\Users\LaFos\source\repos\Arrays and Strings Project\Arrays and Strings Project\bin\Debug\Arrays and Strings Project.exe.config
+C:\Users\LaFos\source\repos\Arrays and Strings Project\Arrays and Strings Project\bin\Debug\Arrays and Strings Project.exe
+C:\Users\LaFos\source\repos\Arrays and Strings Project\Arrays and Strings Project\bin\Debug\Arrays and Strings Project.pdb
+C:\Users\LaFos\source\repos\Arrays and Strings Project\Arrays and Strings Project\obj\Debug\Arrays and Strings Project.csprojAssemblyReference.cache
+C:\Users\LaFos\source\repos\Arrays and Strings Project\Arrays and Strings Project\obj\Debug\Arrays and Strings Project.exe
+C:\Users\LaFos\source\repos\Arrays and Strings Project\Arrays and Strings Project\obj\Debug\Arrays and Strings Project.pdb
