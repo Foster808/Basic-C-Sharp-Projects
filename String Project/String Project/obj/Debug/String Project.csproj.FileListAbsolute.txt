@@ -1,0 +1,5 @@
+C:\Users\LaFos\source\repos\String Project\String Project\bin\Debug\String Project.exe.config
+C:\Users\LaFos\source\repos\String Project\String Project\bin\Debug\String Project.exe
+C:\Users\LaFos\source\repos\String Project\String Project\bin\Debug\String Project.pdb
+C:\Users\LaFos\source\repos\String Project\String Project\obj\Debug\String Project.exe
+C:\Users\LaFos\source\repos\String Project\String Project\obj\Debug\String Project.pdb
