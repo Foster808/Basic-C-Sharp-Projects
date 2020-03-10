@@ -1,0 +1,5 @@
+C:\Users\LaFos\source\repos\Whiel and Do DO\Whiel and Do DO\bin\Debug\Whiel and Do DO.exe.config
+C:\Users\LaFos\source\repos\Whiel and Do DO\Whiel and Do DO\bin\Debug\Whiel and Do DO.exe
+C:\Users\LaFos\source\repos\Whiel and Do DO\Whiel and Do DO\bin\Debug\Whiel and Do DO.pdb
+C:\Users\LaFos\source\repos\Whiel and Do DO\Whiel and Do DO\obj\Debug\Whiel and Do DO.exe
+C:\Users\LaFos\source\repos\Whiel and Do DO\Whiel and Do DO\obj\Debug\Whiel and Do DO.pdb

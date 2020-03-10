@@ -1,0 +1,6 @@
+C:\Users\LaFos\source\repos\While and Do\While and Do\bin\Debug\While and Do.exe.config
+C:\Users\LaFos\source\repos\While and Do\While and Do\bin\Debug\While and Do.exe
+C:\Users\LaFos\source\repos\While and Do\While and Do\bin\Debug\While and Do.pdb
+C:\Users\LaFos\source\repos\While and Do\While and Do\obj\Debug\While and Do.csprojAssemblyReference.cache
+C:\Users\LaFos\source\repos\While and Do\While and Do\obj\Debug\While and Do.exe
+C:\Users\LaFos\source\repos\While and Do\While and Do\obj\Debug\While and Do.pdb
