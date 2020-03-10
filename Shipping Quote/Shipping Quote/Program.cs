@@ -21,6 +21,8 @@ namespace Shipping_Quote
             if (userPackage > 50)
             {
                 Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day.");
+                Console.ReadLine();
+                Environment.Exit(1);
             }
             Console.ReadLine();
             
@@ -44,6 +46,8 @@ namespace Shipping_Quote
             if (result > 50)
             {
                 Console.WriteLine("Package too big to be shipped via Package Express.");
+                Console.ReadLine();
+                Environment.Exit(1);
             }
 
             int result2 = userPackage * userWidth * userHeight * userLength;
