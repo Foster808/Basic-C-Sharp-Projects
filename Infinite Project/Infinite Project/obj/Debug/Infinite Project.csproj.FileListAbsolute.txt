@@ -1,0 +1,6 @@
+C:\Users\LaFos\source\repos\Infinite Project\Infinite Project\obj\Debug\Infinite Project.csprojAssemblyReference.cache
+C:\Users\LaFos\source\repos\Infinite Project\Infinite Project\bin\Debug\Infinite Project.exe.config
+C:\Users\LaFos\source\repos\Infinite Project\Infinite Project\bin\Debug\Infinite Project.exe
+C:\Users\LaFos\source\repos\Infinite Project\Infinite Project\bin\Debug\Infinite Project.pdb
+C:\Users\LaFos\source\repos\Infinite Project\Infinite Project\obj\Debug\Infinite Project.exe
+C:\Users\LaFos\source\repos\Infinite Project\Infinite Project\obj\Debug\Infinite Project.pdb
