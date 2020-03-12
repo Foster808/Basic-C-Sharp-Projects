@@ -1,0 +1,6 @@
+C:\Users\LaFos\source\repos\Exceptions Project\Exceptions Project\bin\Debug\Exceptions Project.exe.config
+C:\Users\LaFos\source\repos\Exceptions Project\Exceptions Project\bin\Debug\Exceptions Project.exe
+C:\Users\LaFos\source\repos\Exceptions Project\Exceptions Project\bin\Debug\Exceptions Project.pdb
+C:\Users\LaFos\source\repos\Exceptions Project\Exceptions Project\obj\Debug\Exceptions Project.csprojAssemblyReference.cache
+C:\Users\LaFos\source\repos\Exceptions Project\Exceptions Project\obj\Debug\Exceptions Project.exe
+C:\Users\LaFos\source\repos\Exceptions Project\Exceptions Project\obj\Debug\Exceptions Project.pdb
