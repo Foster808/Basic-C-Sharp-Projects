@@ -1,0 +1,6 @@
+C:\Users\LaFos\source\repos\User Math\User Math\bin\Debug\User Math.exe.config
+C:\Users\LaFos\source\repos\User Math\User Math\bin\Debug\User Math.exe
+C:\Users\LaFos\source\repos\User Math\User Math\bin\Debug\User Math.pdb
+C:\Users\LaFos\source\repos\User Math\User Math\obj\Debug\User Math.exe
+C:\Users\LaFos\source\repos\User Math\User Math\obj\Debug\User Math.pdb
+C:\Users\LaFos\source\repos\User Math\User Math\obj\Debug\User Math.csprojAssemblyReference.cache
