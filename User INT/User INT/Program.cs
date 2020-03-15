@@ -8,9 +8,7 @@ namespace User_INT
 {
     public class Program
     {
-        static void Main(string[] args)
-        
-        
+        static void MyMethod()
         {
             Console.WriteLine("Let's talk numbers... Pick one...");
             int userInt = Convert.ToInt32(Console.ReadLine());
@@ -21,10 +19,8 @@ namespace User_INT
             Console.ReadLine();
 
             decimal a = 2.1m;
-            //int result2 = userInt + (decimal) a;
             Console.WriteLine("Your number plus 2.1 is: ");
             Console.WriteLine((decimal)a + userInt);
-            //Console.WriteLine("Your number plus 2.9 is: " a + result2);
             Console.ReadLine();
 
 
@@ -35,13 +31,33 @@ namespace User_INT
             Console.WriteLine("Boom: " + result2);
             Console.ReadLine();
 
-            
-
-
-            
-
         }
-    }
+        private double length; //length of a line
+        public Program()
+        {
+            Console.WriteLine("Object is being created");
+        }
+        public void setLength(double len)
+        {
+            length = len;
+        }
+        public double getLength()
+        {
+            return length;
+        }
+
+        static void Main(string[] args)
+        {
+            MyMethod();
+
+            Program insClass = new Program();
+
+            insClass.setLength(6.0);
+            Console.WriteLine("Here is instantiation.", insClass.getLength());
+        }
+        
+    
+}
 }
 
 
