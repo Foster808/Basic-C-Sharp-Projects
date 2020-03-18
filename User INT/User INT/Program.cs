@@ -6,58 +6,34 @@ using System.Threading.Tasks;
 
 namespace User_INT
 {
-    public class Program
+    class Program
     {
-        static void MyMethod()
-        {
-            Console.WriteLine("Let's talk numbers... Pick one...");
-            int userInt = Convert.ToInt32(Console.ReadLine());
-            Console.ReadLine();
-
-            int result = userInt - 10;
-            Console.WriteLine("Your number minus 10 is: " + result);
-            Console.ReadLine();
-
-            decimal a = 2.1m;
-            Console.WriteLine("Your number plus 2.1 is: ");
-            Console.WriteLine((decimal)a + userInt);
-            Console.ReadLine();
-
-
-            Console.WriteLine("Now, here's a string converted to a number...");
-            string userName = Convert.ToString(Console.ReadLine());
-            var isNumeric = int.TryParse(userName, out int n);
-            int result2 = n * 10;
-            Console.WriteLine("Boom: " + result2);
-            Console.ReadLine();
-
-        }
-        private double length; //length of a line
-        public Program()
-        {
-            Console.WriteLine("Object is being created");
-        }
-        public void setLength(double len)
-        {
-            length = len;
-        }
-        public double getLength()
-        {
-            return length;
-        }
-
+ 
         static void Main(string[] args)
         {
-            MyMethod();
 
-            Program insClass = new Program();
 
-            insClass.setLength(6.0);
-            Console.WriteLine("Here is instantiation.", insClass.getLength());
+            //instantiate an object of the class
+            Class1 obj1 = new Class1();
+
+            Console.WriteLine("Let's talk numbers... Pick one...");
+            int userInt = Convert.ToInt32(Console.ReadLine());
+            obj1.MyMethod(userInt);
+
+
+            Console.WriteLine("Please enter a decimal...");
+            decimal userDecimal = Convert.ToDecimal(Console.ReadLine());
+            obj1.MyMethod(userDecimal);
+
+            Console.WriteLine("Enter a number...");
+            string userString = Console.ReadLine();
+            obj1.MyMethod(userString);
+
+            Console.ReadLine();
         }
-        
-    
-}
+
+
+    }
 }
 
 
