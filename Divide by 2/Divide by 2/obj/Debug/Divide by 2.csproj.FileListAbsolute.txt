@@ -1,0 +1,6 @@
+C:\Users\LaFos\source\repos\Divide by 2\Divide by 2\obj\Debug\Divide by 2.csprojAssemblyReference.cache
+C:\Users\LaFos\source\repos\Divide by 2\Divide by 2\bin\Debug\Divide by 2.exe.config
+C:\Users\LaFos\source\repos\Divide by 2\Divide by 2\bin\Debug\Divide by 2.exe
+C:\Users\LaFos\source\repos\Divide by 2\Divide by 2\bin\Debug\Divide by 2.pdb
+C:\Users\LaFos\source\repos\Divide by 2\Divide by 2\obj\Debug\Divide by 2.exe
+C:\Users\LaFos\source\repos\Divide by 2\Divide by 2\obj\Debug\Divide by 2.pdb
