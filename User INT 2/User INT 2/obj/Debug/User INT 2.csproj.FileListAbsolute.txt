@@ -1,0 +1,6 @@
+C:\Users\LaFos\source\repos\User INT 2\User INT 2\bin\Debug\User INT 2.exe.config
+C:\Users\LaFos\source\repos\User INT 2\User INT 2\bin\Debug\User INT 2.exe
+C:\Users\LaFos\source\repos\User INT 2\User INT 2\bin\Debug\User INT 2.pdb
+C:\Users\LaFos\source\repos\User INT 2\User INT 2\obj\Debug\User INT 2.csprojAssemblyReference.cache
+C:\Users\LaFos\source\repos\User INT 2\User INT 2\obj\Debug\User INT 2.exe
+C:\Users\LaFos\source\repos\User INT 2\User INT 2\obj\Debug\User INT 2.pdb
