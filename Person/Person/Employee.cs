@@ -8,13 +8,14 @@ namespace Person
 {
     public class Employee : Person
     {
-        public void Id(int[] args)
-        {
-                Person myObj = new Person();
-                myObj.FirstName = "Sample";
-                myObj.LastName = "Student";
-                Console.WriteLine(myObj.FullName);
-            }
+        public string fullName = "Sample Student";
+        //public void Id(int[] args)
+        //{
+        //        Person myObj = new Person();
+        //        myObj.FirstName = "Sample";
+        //        myObj.LastName = "Student";
+        //        Console.WriteLine(myObj.FullName);
+        //    }
         }
     }
 

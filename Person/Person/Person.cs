@@ -8,16 +8,28 @@ namespace Person
 {
     public class Person
     {
-        public List<string> FullName { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; } //prop tab tab
-
+        public string firstName = "Sample";
+        public string lastName = "Student";
         public void SayName()
         {
-            foreach (string person in FullName)
-            {
-                Console.WriteLine("Name: ", (person));
-            }
+            Console.WriteLine();
         }
     }
 }
+    //    public List<string> FullName { get; set; }
+    //    public string FirstName { get; set; }
+    //    public string LastName { get; set; } //prop tab tab
+    //    public string GetFullName()
+    //    {
+    //        return FirstName + " " + LastName;
+    //    }
+    //}
+
+    //public delegate void SayName();
+
+    
+
+        
+
+    
+
