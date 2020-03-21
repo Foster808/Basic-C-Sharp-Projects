@@ -10,7 +10,7 @@ namespace Person_Two
     {
         public override void SayName()
         {
-            Console.WriteLine("Saying a name...");
+            Console.WriteLine("Name: " + firstName + lastName);
         }
     }
 }

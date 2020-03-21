@@ -5,3 +5,10 @@ C:\Users\LaFos\source\repos\Person Two\Person Two\obj\Debug\Person Two.csprojAss
 C:\Users\LaFos\source\repos\Person Two\Person Two\obj\Debug\Person Two.csproj.CoreCompileInputs.cache
 C:\Users\LaFos\source\repos\Person Two\Person Two\obj\Debug\Person Two.exe
 C:\Users\LaFos\source\repos\Person Two\Person Two\obj\Debug\Person Two.pdb
+C:\Users\LaFos\Desktop\Person Two\Person Two\bin\Debug\Person Two.exe.config
+C:\Users\LaFos\Desktop\Person Two\Person Two\bin\Debug\Person Two.exe
+C:\Users\LaFos\Desktop\Person Two\Person Two\bin\Debug\Person Two.pdb
+C:\Users\LaFos\Desktop\Person Two\Person Two\obj\Debug\Person Two.csprojAssemblyReference.cache
+C:\Users\LaFos\Desktop\Person Two\Person Two\obj\Debug\Person Two.csproj.CoreCompileInputs.cache
+C:\Users\LaFos\Desktop\Person Two\Person Two\obj\Debug\Person Two.exe
+C:\Users\LaFos\Desktop\Person Two\Person Two\obj\Debug\Person Two.pdb

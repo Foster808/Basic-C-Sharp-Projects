@@ -13,8 +13,6 @@ namespace Person_Two
             Employee person = new Employee();
 
             person.SayName();
-
-            Console.WriteLine("Name: " + person.firstName + person.lastName);
             Console.ReadLine();
         }
     }
