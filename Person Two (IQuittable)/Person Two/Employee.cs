@@ -14,7 +14,8 @@ namespace Person_Two
         }
         public void Quit()
         {
-            throw new NotImplementedException();
+            Console.WriteLine(firstName + " " + lastName + "has quit!");
+            
         }
     }
 }

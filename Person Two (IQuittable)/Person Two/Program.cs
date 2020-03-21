@@ -15,20 +15,11 @@ namespace Person_Two
             person.SayName();
             Console.ReadLine();
 
-            IQuittable myQuit = new IQuittable();
+            IQuittable myQuit = new Employee();
 
 
             myQuit.Quit();
-
-            IQuittable r; //trying to make a reference here
-            r = myQuit;
-            r.Quit();
         }
     }
 }
 
-
-
-//Use polymorphism to create an object of type IQuittable and call the Quit() 
-//    method on it.Hint: an object can be of an interface type if it implements 
-//    that specific interface.
