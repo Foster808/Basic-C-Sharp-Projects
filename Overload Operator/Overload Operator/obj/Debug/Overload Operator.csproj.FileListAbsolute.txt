@@ -1,0 +1,7 @@
+C:\Users\LaFos\source\repos\Overload Operator\Overload Operator\obj\Debug\Overload Operator.csprojAssemblyReference.cache
+C:\Users\LaFos\source\repos\Overload Operator\Overload Operator\obj\Debug\Overload Operator.csproj.CoreCompileInputs.cache
+C:\Users\LaFos\source\repos\Overload Operator\Overload Operator\bin\Debug\Overload Operator.exe.config
+C:\Users\LaFos\source\repos\Overload Operator\Overload Operator\bin\Debug\Overload Operator.exe
+C:\Users\LaFos\source\repos\Overload Operator\Overload Operator\bin\Debug\Overload Operator.pdb
+C:\Users\LaFos\source\repos\Overload Operator\Overload Operator\obj\Debug\Overload Operator.exe
+C:\Users\LaFos\source\repos\Overload Operator\Overload Operator\obj\Debug\Overload Operator.pdb
