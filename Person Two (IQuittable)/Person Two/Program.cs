@@ -20,6 +20,15 @@ namespace Person_Two
 
             myQuit.Quit();
         }
+        static void Main1(string[] args)
+        {
+            Person myObj = new Person();
+            Person myObj1 = new Person();
+            myObj.Name = "Employee1";
+            myObj1.Name = "Employee1";
+            Console.WriteLine(myObj.Name == myObj1.Name);
+            Console.ReadLine();
+        }
     }
 }
 

@@ -14,8 +14,20 @@ namespace Person_Two
         }
         public void Quit()
         {
-            Console.WriteLine(firstName + " " + lastName + "has quit!");
-            
+            Console.WriteLine(firstName + " " + lastName + " has quit!");
+            Console.ReadLine();
+           
+
         }
     }
+    class Person
+    {
+        private string name;
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+    }
+
 }
