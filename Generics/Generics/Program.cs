@@ -8,34 +8,64 @@ namespace Generics
 {
     class Program
     {
-        //private class ExampleClass { }
         static void Main()
         {
-            Employee<int> list1 = new Employee<int>();
-            list1.Add(1 + 2 + 3)
-            list1.things = 1;
+            List<string> things = new List<string>();
 
-            Employee<string> list2 = new Employee<string>();
-            list2.Add("These are our strings to add." + "And another" + "And another");
-            list2.things = 2;
+            things.Add("Bananas");
+            things.Add("Apples");
+            things.Add("Celery");
+            Console.WriteLine();
+
+            foreach (string thing in things)
+            {
+                Console.WriteLine(thing);
+                Console.ReadLine();
+            }
+
+            List<int> things1 = new List<int>();
+
+            things1.Add(1);
+            things1.Add(2);
+            things1.Add(3);
+            Console.WriteLine();
+
+            foreach (int thing in things1)
+            {
+                Console.WriteLine(thing);
+                Console.ReadLine();
+            }
+
+
+            //Employee<string> emp1 = new Employee<string>("Apple, " + "Banana, " + "Celery.");
+            //emp1.Write();
+            ////Console.WriteLine();
+            ////Console.ReadLine(); 
+
+            //Employee<int> emp2 = new Employee<int>(5 + 2 + 7);
+            //emp2.Write();
+            ////Console.WriteLine();
+            ////Console.ReadLine();
+
+
+            //public virtual void ListThings()
+            //{ 
+            //foreach (Employee things in Employees)
+            //{
+            //    Console.WriteLine(things.List);
+            //    Console.ReadLine();
+            //}
+
+            //List<string> Things = new List<string>()
+            //{
+            //    "banana",
+            //    "butter",
+            //    "broccoli"
+            //};
+            //Console.WriteLine();
+            //Console.ReadLine();
         }
     }
-            int[] list1 = { 1, 2, 3 };
-            foreach (int list2 in Employee<int>)
-            {
-            Console.WriteLine(list1.things);
-            }
-    
-            string[] list2 = { "These are our strings." };
-            foreach (string list2 in Employee<string>)
-            {
-            Console.WriteLine(list2.things);
-            }
+}
 
-    //Employee myObj = new Employee();
-        //myObj.things = 1;
-        //Console.WriteLine(myObj.things);
-
-    
-    
 

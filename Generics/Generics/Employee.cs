@@ -6,11 +6,24 @@ using System.Threading.Tasks;
 
 namespace Generics
 {
-    class Employee<T>
+    public class Employee<T>
     {
-        public void Add(T input) { }
-        public int things { get; set; }
+        public string Things { get; set; }
+        public int Things1 { get; set; }
+
+        //T things;
+
+        //public Employee(T t);
+        //{
+        //    this.things = t;
+        //}
+
+        //public void Write()
+        //{
+        //    Console.WriteLine(this.things);
+        //}
+    }
     }
     
-    }
+    
 
