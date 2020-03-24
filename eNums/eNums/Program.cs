@@ -10,42 +10,22 @@ namespace eNums
     {
         static void Main(string[] args)
         {
-            string value = "None";
-
-            DaysOfTheWeek day;
+            
             try
             {
-                day = (DaysOfTheWeek)Enum.Parse(typeof(DaysOfTheWeek), value);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Please type a day of the week.");
+                DaysOfTheWeek day;
+                Console.WriteLine("Please enter the current day of the week: ");
+                string input = Console.ReadLine();
+                day = (DaysOfTheWeek)Enum.Parse(typeof(DaysOfTheWeek), input);
+
+                Console.WriteLine("You said: " + input);
                 Console.ReadLine();
-
-                day = DaysOfTheWeek.None;
             }
-            if (day == DaysOfTheWeek.Monday)
+            catch (Exception)
             {
-
+                Console.WriteLine("Please type an actual day of the week.");
+                Console.ReadLine();
             }
-            DaysOfTheWeek today = DaysOfTheWeek.Monday;
-            string userInput;
-            Console.WriteLine("Please enter the current day of the week: ");
-            userInput = Convert.ToString(Console.ReadLine());
-
-
-            Console.WriteLine("You said: " + userInput);
-            Console.ReadLine();
-
-            List<string> list = new List<string>(); //assign the value to a variable
-            list.Add(userInput);
-
-
-            //Console.WriteLine(DaysOfTheWeek.Friday);
-            //Console.WriteLine((int)DaysOfTheWeek.Friday);
-            //Console.ReadLine();
-
-
         }
         public enum DaysOfTheWeek
         {
