@@ -10,31 +10,37 @@ namespace Generics
     {
         static void Main()
         {
-            List<string> things = new List<string>();
+            Employee emp1 = new Employee<int>();
+            emp1.Things = new List<int>() { 20, 43, 37, 28, 55 };
 
-            things.Add("Bananas");
-            things.Add("Apples");
-            things.Add("Celery");
-            Console.WriteLine();
+            Employee emp2 = new Employee<string>();
+            emp2.Things = new List<string>() { "Bananas", "Apples", "Celery" };
 
-            foreach (string thing in things)
+            //List<string> things = new List<string>();
+
+            //things.Add("Bananas");
+            //things.Add("Apples");
+            //things.Add("Celery");
+            //Console.WriteLine();
+
+            foreach (thing in things)
             {
-                Console.WriteLine(thing);
+                Console.WriteLine(emp1.Things, emp2.Things);
                 Console.ReadLine();
             }
 
-            List<int> things1 = new List<int>();
+            //List<int> things = new List<int>();
 
-            things1.Add(1);
-            things1.Add(2);
-            things1.Add(3);
-            Console.WriteLine();
+            //things.Add(1);
+            //things.Add(2);
+            //things.Add(3);
+            //Console.WriteLine();
 
-            foreach (int thing in things1)
-            {
-                Console.WriteLine(thing);
-                Console.ReadLine();
-            }
+            //foreach (int thing in things)
+            //{
+            //    Console.WriteLine(thing);
+            //    Console.ReadLine();
+            //}
 
 
             //Employee<string> emp1 = new Employee<string>("Apple, " + "Banana, " + "Celery.");
