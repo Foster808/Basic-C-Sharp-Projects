@@ -1,0 +1,7 @@
+C:\Users\LaFos\source\repos\eNums\eNums\bin\Debug\eNums.exe.config
+C:\Users\LaFos\source\repos\eNums\eNums\bin\Debug\eNums.exe
+C:\Users\LaFos\source\repos\eNums\eNums\bin\Debug\eNums.pdb
+C:\Users\LaFos\source\repos\eNums\eNums\obj\Debug\eNums.csprojAssemblyReference.cache
+C:\Users\LaFos\source\repos\eNums\eNums\obj\Debug\eNums.csproj.CoreCompileInputs.cache
+C:\Users\LaFos\source\repos\eNums\eNums\obj\Debug\eNums.exe
+C:\Users\LaFos\source\repos\eNums\eNums\obj\Debug\eNums.pdb
