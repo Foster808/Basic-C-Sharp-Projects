@@ -12,20 +12,11 @@ namespace Struct
         {
             Number dec1 = new Number();
 
-            //int dec1 = Convert.ToInt32(Console.ReadLine())
+            dec1.Amount = 3.8m;
 
-
-            Console.WriteLine(dec1);
+            Console.WriteLine(dec1.Amount);
             Console.ReadLine();
-
-            //Console.WriteLine(DecAmount(Amount)); 
         }
-
-            
-
-            
-        
         }
     }
-
 

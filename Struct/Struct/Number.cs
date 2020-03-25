@@ -10,8 +10,6 @@ namespace Struct
     {
         public decimal Amount { get; set; }
 
-        //protected decimal Amount;
-
         public void DecAmount()
         {
             Amount = Decimal.Add(Amount, 3.8m);
