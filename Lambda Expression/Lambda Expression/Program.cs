@@ -35,16 +35,26 @@ namespace Lambda_Expression
             List<Employee> nameList = new List<Employee>();
             nameList = employees.Where(x => x.EmployeeFirstName == "Joe").ToList();
 
-            Console.WriteLine(nameList);
-            Console.ReadLine();
+            foreach (var x in nameList)
+            {
+                Console.WriteLine(x.EmployeeFirstName);
+                Console.ReadLine();
+            }
+
 
             List<Employee> idList = new List<Employee>();
             idList = employees.Where(y => y.EmployeeId > 5).ToList();
 
-            Console.WriteLine(idList);
-            Console.ReadLine();
+            foreach (var y in idList)
+            {
+                Console.WriteLine(y.EmployeeId);
+                Console.ReadLine();
+            }
+
         }
     }
 }
-    
+
+
+
 
