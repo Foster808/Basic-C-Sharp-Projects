@@ -31,43 +31,20 @@ namespace Lambda_Expression
             }
             Console.Read();
 
+
             List<Employee> nameList = new List<Employee>();
-            Employee Name = nameList.Where(EmployeeFirstName => "Joe");
-            Employee Name1 = nameList.Contains(EmployeeFirstName => "Joe"); // ???
+            nameList = employees.Where(x => x.EmployeeFirstName == "Joe").ToList();
 
             Console.WriteLine(nameList);
+            Console.ReadLine();
 
             List<Employee> idList = new List<Employee>();
-            Employee empID = idList.Where(EmployeeID => 5);
+            idList = employees.Where(y => y.EmployeeId > 5).ToList();
 
             Console.WriteLine(idList);
-            Console.Read();
-           
-
-
-            //var employeesWithFirstNameJoe = employees.Join(employees,
-            //    emp1 => emp1.EmployeeName,
-            //    emp2 => emp2.EmployeeId,
-            //    (emp1, emp2) => new { EmployeeName = emp1.EmployeeName, FirstNameJoe = emp2.EmployeeName });
+            Console.ReadLine();
         }
     }
-
-
-            //Employees.Add("Joe Smith");
-            //Employees.Add("Joe Blow");
-            //Employees.Add("Jane Smith");
-            //Employees.Add("Jackie Wright");
-            //Employees.Add("Julie Everybody");
-            //Employees.Add("Jocelyn Crew");
-            //Employees.Add("Janie Franks");
-            //Employees.Add("Joy Harvard");
-            //Employees.Add("Jolly Joe");
-            //Employees.Add("Jippy Jip");
-
-            //Console.WriteLine(Employees);
-            //Console.ReadLine();
-
-            //foreach (Employees employee in employees)
-        }
+}
     
 
