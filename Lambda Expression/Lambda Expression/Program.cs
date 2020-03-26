@@ -10,24 +10,40 @@ namespace Lambda_Expression
     {
         static void Main(string[] args)
         {
-            //List<string> Employees = new List<string>();
             List<Employee> employees = new List<Employee>();
-            employees.Add(new Employee() { EmployeeName = "Nancy Smith", EmployeeId = 1 });
-            employees.Add(new Employee() { EmployeeName = "Georgia Rikes", EmployeeId = 2 });
-            employees.Add(new Employee() { EmployeeName = "Sally Super", EmployeeId = 3 });
-            employees.Add(new Employee() { EmployeeName = "Mike Miles", EmployeeId = 4 });
-            employees.Add(new Employee() { EmployeeName = "John Joels", EmployeeId = 5 });
-            employees.Add(new Employee() { EmployeeName = "Emma Becks", EmployeeId = 6 });
-            employees.Add(new Employee() { EmployeeName = "Scott Teer", EmployeeId = 7 });
-            employees.Add(new Employee() { EmployeeName = "Nate Jiles", EmployeeId = 8 });
-            employees.Add(new Employee() { EmployeeName = "Joe Smith", EmployeeId = 9 });
-            employees.Add(new Employee() { EmployeeName = "Joe Jolly", EmployeeId = 10 });
+            employees.Add(new Employee() { EmployeeFirstName = "Nancy", EmployeeLastName = "Smith", EmployeeId = 1 });
+            employees.Add(new Employee() { EmployeeFirstName = "Georgia", EmployeeLastName = "Rikes", EmployeeId = 2 });
+            employees.Add(new Employee() { EmployeeFirstName = "Sally", EmployeeLastName = "Super", EmployeeId = 3 });
+            employees.Add(new Employee() { EmployeeFirstName = "Mike", EmployeeLastName = "Miles", EmployeeId = 4 });
+            employees.Add(new Employee() { EmployeeFirstName = "John", EmployeeLastName = "Joels", EmployeeId = 5 });
+            employees.Add(new Employee() { EmployeeFirstName = "Emma", EmployeeLastName = "Becks", EmployeeId = 6 });
+            employees.Add(new Employee() { EmployeeFirstName = "Scott", EmployeeLastName = "Teer", EmployeeId = 7 });
+            employees.Add(new Employee() { EmployeeFirstName = "Nate", EmployeeLastName = "Jiles", EmployeeId = 8 });
+            employees.Add(new Employee() { EmployeeFirstName = "Joe", EmployeeLastName = "Smith", EmployeeId = 9 });
+            employees.Add(new Employee() { EmployeeFirstName = "Joe", EmployeeLastName = "Jolly", EmployeeId = 10 });
 
-            foreach (var Joe in <Employee>)
+            foreach (var Joe in employees)
             {
-                Console.WriteLine("Joe", Joe.EmployeeName);
+                if (Joe.EmployeeFirstName == "Joe")
+                {
+                    Console.WriteLine(Joe.EmployeeFirstName);
+                }
             }
             Console.Read();
+
+            List<Employee> nameList = new List<Employee>();
+            Employee Name = nameList.Where(EmployeeFirstName => "Joe");
+            Employee Name1 = nameList.Contains(EmployeeFirstName => "Joe"); // ???
+
+            Console.WriteLine(nameList);
+
+            List<Employee> idList = new List<Employee>();
+            Employee empID = idList.Where(EmployeeID => 5);
+
+            Console.WriteLine(idList);
+            Console.Read();
+           
+
 
             //var employeesWithFirstNameJoe = employees.Join(employees,
             //    emp1 => emp1.EmployeeName,
