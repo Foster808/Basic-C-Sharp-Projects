@@ -1,0 +1,7 @@
+C:\Users\LaFos\source\repos\TextLog\TextLog\bin\Debug\TextLog.exe.config
+C:\Users\LaFos\source\repos\TextLog\TextLog\bin\Debug\TextLog.exe
+C:\Users\LaFos\source\repos\TextLog\TextLog\bin\Debug\TextLog.pdb
+C:\Users\LaFos\source\repos\TextLog\TextLog\obj\Debug\TextLog.csprojAssemblyReference.cache
+C:\Users\LaFos\source\repos\TextLog\TextLog\obj\Debug\TextLog.csproj.CoreCompileInputs.cache
+C:\Users\LaFos\source\repos\TextLog\TextLog\obj\Debug\TextLog.exe
+C:\Users\LaFos\source\repos\TextLog\TextLog\obj\Debug\TextLog.pdb
