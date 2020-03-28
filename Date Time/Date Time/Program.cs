@@ -12,28 +12,33 @@ namespace Date_Time
         static void Main(string[] args)
         {
 
-            decimal userInput;
+            double userInput;
             Console.WriteLine("Please enter a number from 1-9.");
-            userInput = decimal.Parse(Console.ReadLine());
+            userInput = double.Parse(Console.ReadLine());
             Console.WriteLine("You said, " + userInput);
             Console.ReadLine();
 
+
+            Console.WriteLine("Right now, our current time is: ");
+            //Console.WriteLine(DateTime.Now);
             var date01 = DateTime.Now;
             Console.WriteLine(date01);
+            Console.ReadLine();
 
+            Console.WriteLine("The time plus what you chose is: ");
             var resultTime = date01.AddHours(userInput);
             Console.WriteLine(resultTime);
+            Console.ReadLine();
             
             
             
-            //Console.WriteLine("Right now, our current time is: ");
-            //Console.WriteLine(DateTime.Now);
+            
             
             
 
             //DateTime ourTime = DateTime.Now;
 
-            //Console.WriteLine("The time plus what you chose is: " resultTime)
+            
             
             //DateTime theirTime = userInput;
             //DateTime theirTime = DateTime.Now + userInput;
