@@ -1,0 +1,7 @@
+C:\Users\LaFos\source\repos\Const Var\Const Var\bin\Debug\Const Var.exe.config
+C:\Users\LaFos\source\repos\Const Var\Const Var\bin\Debug\Const Var.exe
+C:\Users\LaFos\source\repos\Const Var\Const Var\bin\Debug\Const Var.pdb
+C:\Users\LaFos\source\repos\Const Var\Const Var\obj\Debug\Const Var.csproj.CoreCompileInputs.cache
+C:\Users\LaFos\source\repos\Const Var\Const Var\obj\Debug\Const Var.exe
+C:\Users\LaFos\source\repos\Const Var\Const Var\obj\Debug\Const Var.pdb
+C:\Users\LaFos\source\repos\Const Var\Const Var\obj\Debug\Const Var.csprojAssemblyReference.cache
