@@ -20,29 +20,36 @@ namespace Const_Var
             Console.ReadLine();
         }
 
-            public class highTen
+        class highTen
         {
+            private int id;
+            private string name;
 
-            public highTen() : this(string.Empty, string.Empty, string.Empty)
+            public highTen() : this(0, "")
             {
-                Console.WriteLine("highTen() constructor called");
+
             }
 
-            public highTen(string firstName, string lastName) : this(firstName, lastName, string.Empty)
+            public highTen (int id, string name)
             {
-                Console.WriteLine("highTen(firstName,lastName) constructor called");
+                this.id = id;
+                this.name = name;
             }
 
-            public highTen(string firstName, string lastName, string nickName)
+            public highTen(int id) : this(id, "")
             {
-                Console.WriteLine("highTen(firstName,lastName,nickName) constructor called");
-                if (!string.IsNullOrEmpty(firstName) && !string.IsNullOrEmpty(lastName) && !string.IsNullOrEmpty(nickName));
-                
-                
+
             }
 
+            public highTen(string name) : this(0, name)
+            {
+
+            }
+
+            highTen x = new highTen(), y = new highTen(789, "defined"), z = new highTen("xyz");
         }
     }
+}
        
-    }
+    
 
