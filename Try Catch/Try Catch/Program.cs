@@ -10,33 +10,38 @@ namespace Try_Catch
     {
         static void Main(string[] args)
         {
-            try
             {
-                Console.WriteLine("How old are you?");
-                int userAge;
-                userAge = Convert.ToInt32(Console.ReadLine());
+                try
+                {
+                    Console.WriteLine("How old are you?");
+                    int userAge;
+                    userAge = Convert.ToInt32(Console.ReadLine());
 
-                var date01 = DateTime.Now;
-                var userYear = date01.AddYears(-userAge);
+                    var date01 = DateTime.Now.Year;
+                    var userYear = (date01 - userAge);
 
-                DateTime d = new DateTime(int.Parse(userYear, 1, 1);
-                userYear = d.ToString("yyyy");
-                Console.WriteLine(userYear);
-                Console.ReadLine();
+                    if (userAge == 0)
+                        throw new System.wrongNumber();
 
-                Console.WriteLine("You were born in: " + userYear);
+                    if (userAge < 0)
+                        throw new System.wrongNumber();
+
+                    //Console.WriteLine(userYear);
+
+                    Console.WriteLine("You were born in: " + userYear);
+                    Console.ReadLine();
+                }
+                catch (wrongNumber)
+                {
+                    Console.WriteLine("Please enter a correct age.");
+                    Console.ReadLine();
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Please enter a real number (not zero) and no negatives.");
+                    Console.ReadLine();
+                }
             }
-            catch (wrongNumber)
-            {
-                Console.WriteLine("Please enter a real number and no negatives.");
-                Console.ReadLine();
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("Please enter a correct age.");
-                Console.ReadLine();
-            }
-            
 
 
             
