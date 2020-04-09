@@ -56,17 +56,17 @@ namespace CarInsurance1.Controllers
 
                 if ((DateTime.Now).Year - (Convert.ToDateTime(insuree.DateOfBirth)).Year < 18)
                     {
-                    total = +25;
+                    total += 25;
                 }
 
                 if ((DateTime.Now).Year - (Convert.ToDateTime(insuree.DateOfBirth)).Year < 25)
                 {
-                    total = +100;
+                    total += 100;
                 }
 
                 if ((DateTime.Now).Year - (Convert.ToDateTime(insuree.DateOfBirth)).Year > 100)
                 {
-                    total = +25;
+                    total += 25;
                 }
 
                 
@@ -75,32 +75,32 @@ namespace CarInsurance1.Controllers
 
                 if (vehicleYear < 2000)
                 {
-                    total = +25;
+                    total += 25;
                 }
                 else
                 {
-                    total = +0;
+                    total += 0;
                 }
 
                 if (vehicleYear > 2015)
                 {
-                    total = +25;
+                    total += 25;
                 }
 
                 if (insuree.CarMake == "Porsche")
                 {
-                    total = +25;
+                    total += 25;
                 }
 
                 if (insuree.CarMake == "Carrera")
                 {
-                    total = +25;
+                    total += 25;
                 }
 
                 int ticket = Convert.ToInt32(insuree.SpeedingTickets);
                 if (ticket >= 1)
                 {
-                    total = +25;
+                    total += 25;
                 }
 
                 //bool drinker = Convert.ToBoolean(DUI);
@@ -117,19 +117,21 @@ namespace CarInsurance1.Controllers
                 }
                 else
                 {
-                    total = +0;
+                    total += 0;
                 }
 
-                if (insuree.Quote > 0)
-                {
-                    Console.WriteLine("Your Quote is: {0} ", total);
-                    Console.ReadLine();
-                }
-                
+                //if (insuree.Quote > 0)
+                //{
+                //    Console.WriteLine("Your Quote is: {0} ", total); //Doesn't work for an MVC
+                //    Console.ReadLine();
+                //}
 
+                insuree.Quote = total;
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                ViewBag.Message = "Your total is: $" + total;
+                return View("Success");
+                //return RedirectToAction("Index");
             }
 
             return View(insuree);
